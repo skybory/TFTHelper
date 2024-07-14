@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOLCHESS 조합</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
   <body>
-    <section class="css-255197">
-      <div class="css-15wy41k">
+    <section class="champion_select_section">
+      <div class="select_title">
         <div>
-          <div class="title">
-            선택한 챔피언
-          </div>
+          <div id="title" class="title">선택한 챔피언 (0 / 10)</div>
         </div>
-        <button id="clear_button" class="clear">초기화</button>
+        <div>
+          <button id="submit_button" class="submit">입력</button>
+          <button id="clear_button" class="clear">초기화</button>
+        </div>
       </div>
-      <div class="css-1surwb8 e4wf822">
-        <div id="selectedChildList" class="css-rl1ri0 ejw5d200">
-        </div>
-        <div class="css-4gx81h e3bnrf30">
-          <div id="result_text" class="selected_champion_text"></div>
+      <div class="result_section">
+        <div id="selected_child_list" class="select_champion_section"></div>
+        <div class="result_text_section">
+          <p id="result_text" class="selected_champion_text">😋 조합 대기 중!</p>
         </div>
       </div>
     </section>
-    <div id="selectedChampionList"></div>
-    <button id="champion">럭스</button>
-    <button id="champion">잭스</button>
-    <button id="champion">렉사이</button>
-    <button id="champion">세트</button>
-    <button id="champion">자야</button>
-    <button id="champion">라칸</button>
-
-    <button id="submit_button" class="submit_button">입력</button>
+    <div id="champion_button_section"></div>
 
     <script src="main.js"></script>
   </body>
