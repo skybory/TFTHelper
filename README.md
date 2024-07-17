@@ -18,4 +18,4 @@ VSCode 우측 하단에서 Go Live 버튼을 클릭한다.
 
 Contact <br>
 FrontEnd : [workinghangyu@gmail.com](https://github.com/LittleWaterDrops)<br>
-BackEnd : [skybory1013@gmail.com](https://github.com/skybory1013)
+BackEnd : [skybory1013@gmail.com](https://github.com/skybory)
