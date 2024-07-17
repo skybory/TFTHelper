@@ -17,5 +17,5 @@ VSCode 우측 하단에서 Go Live 버튼을 클릭한다.
 ## 4. 원하는 챔피언을 선택하고, '입력' 버튼을 누르면 실행!
 
 Contact <br>
-FrontEnd : workinghangyu@gmail.com<br>
-BackEnd : skybory1013@gmail.com
+FrontEnd : [workinghangyu@gmail.com](https://github.com/LittleWaterDrops)<br>
+BackEnd : [skybory1013@gmail.com](https://github.com/skybory1013)
